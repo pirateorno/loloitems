@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "loloitems:block/traders_flag"
+    },
+    "facing=east": {
+      "model": "loloitems:block/traders_flag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "loloitems:block/traders_flag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "loloitems:block/traders_flag",
+      "y": 270
+    }
+  }
+}

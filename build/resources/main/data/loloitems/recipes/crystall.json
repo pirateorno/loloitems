@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "loloitems:fragmentskinta"
+    },
+    "1": {
+      "item": "loloitems:fragmentskinta"
+    },
+    "2": {
+      "item": "loloitems:fragmentskinta"
+    },
+    "3": {
+      "item": "loloitems:fragmentskinta"
+    },
+    "4": {
+      "item": "loloitems:fragmentskinta"
+    },
+    "5": {
+      "item": "loloitems:fragmentskinta"
+    },
+    "6": {
+      "item": "loloitems:fragmentskinta"
+    },
+    "7": {
+      "item": "loloitems:fragmentskinta"
+    },
+    "8": {
+      "item": "loloitems:fragmentskinta"
+    }
+  },
+  "result": {
+    "item": "loloitems:kristalskinta",
+    "count": 1
+  }
+}

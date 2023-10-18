@@ -1,0 +1,7 @@
+{
+  "parent": "loloitems:custom/magic",
+  "textures": {
+    "10": "loloitems:blocks/magic",
+    "particle": "loloitems:items/krupitsa_skinta"
+  }
+}

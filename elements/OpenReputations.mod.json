@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "Open Reputations",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "OpenReputationsPriNazhatiiKlavishi"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+
+[[mods]]
+modId="loloitems"
+version="1.0.0"
+displayName="Loloitems"
+credits="Loloitems mod created by sasha3131off (pirateorno)"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="sasha3131off"
+
+[[dependencies.loloitems]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.loloitems]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

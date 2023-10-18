@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "propusk_vorov"
+      },
+      "name": "default"
+    }
+  }
+}

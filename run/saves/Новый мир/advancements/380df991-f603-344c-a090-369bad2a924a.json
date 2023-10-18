@@ -1,0 +1,15 @@
+{
+  "loloitems:start": {
+    "criteria": {
+      "start": "2023-07-25 17:58:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-07-25 17:58:40 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

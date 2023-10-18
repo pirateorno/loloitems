@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "loloitems:block/kontiflag"
+    },
+    "facing=east": {
+      "model": "loloitems:block/kontiflag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "loloitems:block/kontiflag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "loloitems:block/kontiflag",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "loloitems:custom/mages",
+  "textures": {
+    "all": "loloitems:blocks/mages",
+    "particle": "loloitems:blocks/mages",
+    "0": "loloitems:blocks/mages"
+  }
+}

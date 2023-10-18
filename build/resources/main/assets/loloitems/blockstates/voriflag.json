@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "loloitems:block/voriflag"
+    },
+    "facing=east": {
+      "model": "loloitems:block/voriflag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "loloitems:block/voriflag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "loloitems:block/voriflag",
+      "y": 270
+    }
+  }
+}

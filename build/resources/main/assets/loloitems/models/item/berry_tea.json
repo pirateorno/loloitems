@@ -1,0 +1,7 @@
+{
+  "parent": "loloitems:custom/berry",
+  "textures": {
+    "10": "loloitems:blocks/berry",
+    "particle": "loloitems:items/krupitsa_skinta"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "loloitems:custom/vori",
+  "textures": {
+    "all": "loloitems:blocks/vori",
+    "particle": "loloitems:blocks/vori",
+    "0": "loloitems:blocks/vori"
+  }
+}

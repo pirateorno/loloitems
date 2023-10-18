@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "propusk_ubitsii"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,1430 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 160,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Воры: <VAR:Robbers_val>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Воры: <VAR:Robbers_val>",
+          "x": 141,
+          "y": 118
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Контрабандисты: <VAR:Contrs_val>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Контрабандисты: <VAR:Contrs_val>",
+          "x": 141,
+          "y": 138
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Торговцы пряностями: <VAR:Traders_val>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Торговцы пряностями: <VAR:Traders_val>",
+          "x": 141,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation5.png",
+          "use1Xscale": true,
+          "name": "reputation5.png",
+          "x": 87,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_dada3.png",
+          "use1Xscale": true,
+          "name": "reputation_dada3.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M1"
+          },
+          "name": "magic_reputation1.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M2"
+          },
+          "name": "magic_reputation2.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M3"
+          },
+          "name": "magic_reputation3.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M4"
+          },
+          "name": "magic_reputation4.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation5.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M5"
+          },
+          "name": "magic_reputation5.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation6.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M6"
+          },
+          "name": "magic_reputation6.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation7.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M7"
+          },
+          "name": "magic_reputation7.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation8.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M8"
+          },
+          "name": "magic_reputation8.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation9.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M9"
+          },
+          "name": "magic_reputation9.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation10.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M10"
+          },
+          "name": "magic_reputation10.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation11.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M11"
+          },
+          "name": "magic_reputation11.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation12.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M12"
+          },
+          "name": "magic_reputation12.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation13.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M13"
+          },
+          "name": "magic_reputation13.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation14.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M14"
+          },
+          "name": "magic_reputation14.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation15.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M15"
+          },
+          "name": "magic_reputation15.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation16.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M16"
+          },
+          "name": "magic_reputation16.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation17.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M17"
+          },
+          "name": "magic_reputation17.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "magic_reputation18.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "M18"
+          },
+          "name": "magic_reputation18.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_dada3.png",
+          "use1Xscale": true,
+          "name": "reputation_dada3.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K1"
+          },
+          "name": "killers_reputation.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K2"
+          },
+          "name": "killers_reputation2.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K3"
+          },
+          "name": "killers_reputation3.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K4"
+          },
+          "name": "killers_reputation4.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation5.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K5"
+          },
+          "name": "killers_reputation5.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation6.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K6"
+          },
+          "name": "killers_reputation6.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation7.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K7"
+          },
+          "name": "killers_reputation7.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation8.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K8"
+          },
+          "name": "killers_reputation8.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation9.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K9"
+          },
+          "name": "killers_reputation9.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation10.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K10"
+          },
+          "name": "killers_reputation10.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation11.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K11"
+          },
+          "name": "killers_reputation11.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation12.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K12"
+          },
+          "name": "killers_reputation12.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation13.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K13"
+          },
+          "name": "killers_reputation13.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation14.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K14"
+          },
+          "name": "killers_reputation14.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation15.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K15"
+          },
+          "name": "killers_reputation15.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation16.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K16"
+          },
+          "name": "killers_reputation16.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation17.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K17"
+          },
+          "name": "killers_reputation17.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "killers_reputation18.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "K18"
+          },
+          "name": "killers_reputation18.png",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Маги: <VAR:Magic_val>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Маги: <VAR:Magic_val>",
+          "x": 141,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Убийцы: <VAR:Killers_val>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Убийцы: <VAR:Killers_val>",
+          "x": 141,
+          "y": 101
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_dada3.png",
+          "use1Xscale": true,
+          "name": "reputation_dada3.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_dada3.png",
+          "use1Xscale": true,
+          "name": "reputation_dada3.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_dada3.png",
+          "use1Xscale": true,
+          "name": "reputation_dada3.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_da.png",
+          "use1Xscale": true,
+          "name": "reputation_da.png",
+          "x": 119,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_da.png",
+          "use1Xscale": true,
+          "name": "reputation_da.png",
+          "x": 119,
+          "y": 106
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "maghi_kartinka3.png",
+          "use1Xscale": true,
+          "name": "maghi_kartinka3.png",
+          "x": 124,
+          "y": 86
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ubiitsy_kartinka3.png",
+          "use1Xscale": true,
+          "name": "ubiitsy_kartinka3.png",
+          "x": 124,
+          "y": 103
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "vory_kartinka3.png",
+          "use1Xscale": true,
+          "name": "vory_kartinka3.png",
+          "x": 124,
+          "y": 123
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "kontry_kartinka3.png",
+          "use1Xscale": true,
+          "name": "kontry_kartinka3.png",
+          "x": 124,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T1"
+          },
+          "name": "traders_reputation.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T2"
+          },
+          "name": "traders_reputation2.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T3"
+          },
+          "name": "traders_reputation3.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T4"
+          },
+          "name": "traders_reputation4.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation5.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T5"
+          },
+          "name": "traders_reputation5.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation6.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T6"
+          },
+          "name": "traders_reputation6.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation7.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T7"
+          },
+          "name": "traders_reputation7.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation8.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T8"
+          },
+          "name": "traders_reputation8.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation9.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T9"
+          },
+          "name": "traders_reputation9.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation10.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T10"
+          },
+          "name": "traders_reputation10.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation11.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T11"
+          },
+          "name": "traders_reputation11.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation12.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T12"
+          },
+          "name": "traders_reputation12.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation13.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T13"
+          },
+          "name": "traders_reputation13.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation14.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T14"
+          },
+          "name": "traders_reputation14.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation15.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T15"
+          },
+          "name": "traders_reputation15.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation16.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T16"
+          },
+          "name": "traders_reputation16.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation17.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T17"
+          },
+          "name": "traders_reputation17.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "traders_reputation18.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "T18"
+          },
+          "name": "traders_reputation18.png",
+          "x": 141,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_da.png",
+          "use1Xscale": true,
+          "name": "reputation_da.png",
+          "x": 119,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "torghovtsy_kartinka3.png",
+          "use1Xscale": true,
+          "name": "torghovtsy_kartinka3.png",
+          "x": 124,
+          "y": 158
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C1"
+          },
+          "name": "contrs_reputation.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C2"
+          },
+          "name": "contrs_reputation2.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C3"
+          },
+          "name": "contrs_reputation3.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C4"
+          },
+          "name": "contrs_reputation4.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation5.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C5"
+          },
+          "name": "contrs_reputation5.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation6.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C6"
+          },
+          "name": "contrs_reputation6.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation7.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C7"
+          },
+          "name": "contrs_reputation7.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation8.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C8"
+          },
+          "name": "contrs_reputation8.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation9.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C9"
+          },
+          "name": "contrs_reputation9.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation10.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C10"
+          },
+          "name": "contrs_reputation10.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation11.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C11"
+          },
+          "name": "contrs_reputation11.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation12.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C12"
+          },
+          "name": "contrs_reputation12.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation13.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C13"
+          },
+          "name": "contrs_reputation13.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation14.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C14"
+          },
+          "name": "contrs_reputation14.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation15.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C15"
+          },
+          "name": "contrs_reputation15.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation16.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C16"
+          },
+          "name": "contrs_reputation16.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation17.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C17"
+          },
+          "name": "contrs_reputation17.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "contrs_reputation18.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C18"
+          },
+          "name": "contrs_reputation18.png",
+          "x": 141,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_da.png",
+          "use1Xscale": true,
+          "name": "reputation_da.png",
+          "x": 119,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R1"
+          },
+          "name": "robbers_reputation.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R2"
+          },
+          "name": "robbers_reputation2.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R3"
+          },
+          "name": "robbers_reputation3.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation4.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R4"
+          },
+          "name": "robbers_reputation4.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation5.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R5"
+          },
+          "name": "robbers_reputation5.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation6.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R6"
+          },
+          "name": "robbers_reputation6.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation7.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R7"
+          },
+          "name": "robbers_reputation7.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation8.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R8"
+          },
+          "name": "robbers_reputation8.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation9.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R9"
+          },
+          "name": "robbers_reputation9.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation10.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R10"
+          },
+          "name": "robbers_reputation10.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation11.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R11"
+          },
+          "name": "robbers_reputation11.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation12.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R12"
+          },
+          "name": "robbers_reputation12.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation13.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R13"
+          },
+          "name": "robbers_reputation13.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation14.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R14"
+          },
+          "name": "robbers_reputation14.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation15.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R15"
+          },
+          "name": "robbers_reputation15.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation16.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R16"
+          },
+          "name": "robbers_reputation16.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation17.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R17"
+          },
+          "name": "robbers_reputation17.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "robbers_reputation18.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "R18"
+          },
+          "name": "robbers_reputation18.png",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "reputation_da.png",
+          "use1Xscale": true,
+          "name": "reputation_da.png",
+          "x": 119,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

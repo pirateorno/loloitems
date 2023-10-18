@@ -1,0 +1,2578 @@
+{
+  "mod_elements": [
+    {
+      "name": "Krupitsaskinta",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krupitsaskinta",
+      "path": "~/items"
+    },
+    {
+      "name": "Fragmentskinta",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragmentskinta",
+      "path": "~/items"
+    },
+    {
+      "name": "Oskolocskinta",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oskolocskinta",
+      "path": "~/items"
+    },
+    {
+      "name": "Kristalskinta",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kristalskinta",
+      "path": "~/items"
+    },
+    {
+      "name": "Ogranennogoskinta",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ogranennogoskinta",
+      "path": "~/items"
+    },
+    {
+      "name": "Antiskint",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antiskint",
+      "path": "~/items"
+    },
+    {
+      "name": "Pogashiyskint",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pogashiyskint",
+      "path": "~/items"
+    },
+    {
+      "name": "Skints",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skints",
+      "path": "~/other"
+    },
+    {
+      "name": "Oskolok",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oskolok",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Fragment",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Crystall",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystall",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Ograneniy",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ograneniy",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Krupica",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krupica",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Oskolok2",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oskolok_2",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Crystall2",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystall_2",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Fragment2",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_2",
+      "path": "~/crafts"
+    },
+    {
+      "name": "Reputations",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reputations",
+      "path": "~/other"
+    },
+    {
+      "name": "OpenReputationsPriNazhatiiKlavishi",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_reputations_pri_nazhatii_klavishi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "OpenReputations",
+      "type": "keybind",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_reputations",
+      "path": "~/other"
+    },
+    {
+      "name": "Reputationadd",
+      "type": "command",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reputationadd",
+      "path": "~/other"
+    },
+    {
+      "name": "ReputaionAddProcedure",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reputaion_add_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "Magicpicture",
+      "type": "painting",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicpicture",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Robberpicture",
+      "type": "painting",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robberpicture",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Kontrpicture",
+      "type": "painting",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kontrpicture",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Killerspicture",
+      "type": "painting",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killerspicture",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Roziskmezdu",
+      "type": "painting",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roziskmezdu",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Rozizk1",
+      "type": "painting",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rozizk_1",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Rozizk2",
+      "type": "painting",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rozizk_2",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Rozizk3",
+      "type": "painting",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rozizk_3",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Rozizk4",
+      "type": "painting",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rozizk_4",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Rozizk5",
+      "type": "painting",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rozizk_5",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Start",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start",
+      "path": "~/advancements"
+    },
+    {
+      "name": "Money",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money",
+      "path": "~/advancements"
+    },
+    {
+      "name": "AntiSkintADv",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_skint_a_dv",
+      "path": "~/advancements"
+    },
+    {
+      "name": "RassudokUpdate",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rassudok_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "Pogashayaiskra",
+      "type": "potioneffect",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pogashayaiskra",
+      "path": "~/other"
+    },
+    {
+      "name": "PogashayaiskraKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pogashayaiskra_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "Pogashayaiskrazelie",
+      "type": "potion",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pogashayaiskrazelie",
+      "path": "~/other"
+    },
+    {
+      "name": "Mindcommand",
+      "type": "command",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindcommand",
+      "path": "~/other"
+    },
+    {
+      "name": "Mindprocedure",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mindprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "MindRegenProcedure",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mind_regen_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "M1",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M2",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M3",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M4",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M5",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M6",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M7",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M8",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M9",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M10",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M11",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_11",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M12",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_12",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M13",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_13",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M14",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_14",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M15",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_15",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M16",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_16",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M17",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_17",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "M18",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_18",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/magic"
+    },
+    {
+      "name": "SkintOre",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skint_ore",
+      "path": "~/other"
+    },
+    {
+      "name": "Blocks",
+      "type": "tab",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks",
+      "path": "~/other"
+    },
+    {
+      "name": "K1",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K2",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K3",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K4",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K5",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K6",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K7",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K8",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K9",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K10",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K11",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_11",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K12",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_12",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K13",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_13",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K14",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_14",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K15",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_15",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K16",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_16",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K17",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_17",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "K18",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_18",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/killers"
+    },
+    {
+      "name": "Magic",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/reputations/Clan"
+    },
+    {
+      "name": "T1",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T2",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T3",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T4",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T5",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T6",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T7",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T8",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T9",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T10",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T11",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_11",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T12",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_12",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T13",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_13",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T14",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_14",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T15",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_15",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T16",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_16",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T17",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_17",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "T18",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_18",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/traders"
+    },
+    {
+      "name": "Teacups",
+      "type": "tab",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teacups",
+      "path": "~/other"
+    },
+    {
+      "name": "C1",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C2",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C3",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C4",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C5",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C6",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C7",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C8",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C9",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C10",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C11",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_11",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C12",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_12",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C13",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_13",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C14",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_14",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C15",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_15",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C16",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_16",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C17",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_17",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "C18",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_18",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/contrs"
+    },
+    {
+      "name": "GreenTea",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_tea",
+      "path": "~/items/Cups"
+    },
+    {
+      "name": "RareTea",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_tea",
+      "path": "~/items/Cups"
+    },
+    {
+      "name": "BerryTea",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berry_tea",
+      "path": "~/items/Cups"
+    },
+    {
+      "name": "ClassicTea",
+      "type": "item",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_tea",
+      "path": "~/items/Cups"
+    },
+    {
+      "name": "R1",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R2",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R3",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R4",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R5",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R6",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R7",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R8",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R9",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R10",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_10",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R11",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_11",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R12",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_12",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R13",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_13",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R14",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_14",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R15",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_15",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R16",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_16",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R17",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_17",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "R18",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_18",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/reputations/robbers"
+    },
+    {
+      "name": "Creditspro",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creditspro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "Credits",
+      "type": "command",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits",
+      "path": "~/other"
+    },
+    {
+      "name": "Items",
+      "type": "tab",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items",
+      "path": "~/other"
+    },
+    {
+      "name": "Propuskkontri",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propuskkontri",
+      "path": "~/items/Propusk"
+    },
+    {
+      "name": "Propuskkillers",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propuskkillers",
+      "path": "~/items/Propusk"
+    },
+    {
+      "name": "Propuskrobbers",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "propuskrobbers",
+      "path": "~/items/Propusk"
+    },
+    {
+      "name": "Magicstick",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicstick",
+      "path": "~/items"
+    },
+    {
+      "name": "StickProcedure",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "StickGUIProcedure",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_gui_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/other"
+    },
+    {
+      "name": "StickGUI",
+      "type": "overlay",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_gui",
+      "path": "~/other"
+    },
+    {
+      "name": "EmptyCup",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_cup",
+      "path": "~/items/Cups"
+    },
+    {
+      "name": "MagicTea",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tea",
+      "path": "~/items/Cups"
+    },
+    {
+      "name": "SecretTea",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret_tea",
+      "path": "~/items/Cups"
+    },
+    {
+      "name": "TeaProcedure",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/items/Cups"
+    },
+    {
+      "name": "Kontiflag",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kontiflag",
+      "path": "~/blocks/flags"
+    },
+    {
+      "name": "Voriflag",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voriflag",
+      "path": "~/blocks/flags"
+    },
+    {
+      "name": "TradersFlag",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traders_flag",
+      "path": "~/blocks/flags"
+    },
+    {
+      "name": "MagicFlag",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_flag",
+      "path": "~/blocks/flags"
+    },
+    {
+      "name": "KillersFlag",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killers_flag",
+      "path": "~/blocks/flags"
+    },
+    {
+      "name": "PogashiyskintPriNazhatiiPravoiKnopkoiMyshi",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pogashiyskint_pri_nazhatii_pravoi_knopkoi_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Magic_val",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "150.0"
+    },
+    {
+      "name": "Killers_val",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "150.0"
+    },
+    {
+      "name": "Robbers_val",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "150.0"
+    },
+    {
+      "name": "Contrs_val",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "150.0"
+    },
+    {
+      "name": "Traders_val",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "150.0"
+    },
+    {
+      "name": "Rossudok_val",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "Player_gildiya_id",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "StickOpened",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.pogashayaiskrazelie": "Туманное зелье слабой искры",
+      "advancements.anti_skint_a_dv.title": "Темная материя...",
+      "item.loloitems.propuskkillers": "Пропуск убийц",
+      "block.loloitems.traders_flag": "Флаг торговцев пряностями",
+      "item.loloitems.oskolocskinta": "Осколок скинта",
+      "advancements.anti_skint_a_dv.descr": "Получи антискинт",
+      "itemGroup.tabteacups": "Loloitems: Чай",
+      "itemGroup.tabblocks": "Loloitems: Блоки",
+      "itemGroup.tabskints": "Loloitems: Скинты",
+      "advancements.money.descr": "Получи крупицу скинта",
+      "item.loloitems.propuskrobbers": "Пропуск воров",
+      "key.loloitems.open_reputations": "Open Reputations",
+      "block.loloitems.killers_flag": "Флаг убийц",
+      "item.minecraft.tipped_arrow.effect.pogashayaiskrazelie": "Стрела с эффектом слабой искры",
+      "block.loloitems.kontiflag": "Флаг контрабандистов",
+      "item.minecraft.potion.effect.pogashayaiskrazelie": "Зелье слабой искры",
+      "item.loloitems.berry_tea": "Ягодный чай",
+      "itemGroup.tabitems": "LoloItems: предметы",
+      "advancements.money.title": "Первые деньги",
+      "block.loloitems.skint_ore": "Руда скинта",
+      "item.loloitems.fragmentskinta": "Фрагмент скинта",
+      "item.minecraft.splash_potion.effect.pogashayaiskrazelie": "Взрывное зелье слабой искры",
+      "item.loloitems.green_tea": "Травяной чай",
+      "block.loloitems.magic_flag": "Флаг магов",
+      "item.loloitems.pogashiyskint": "Погасший скинт",
+      "item.loloitems.propuskkontri": "Пропуск контрабандистов",
+      "advancements.start.title": "Loloitems",
+      "item.loloitems.kristalskinta": "Кристал скинта",
+      "item.loloitems.ogranennogoskinta": "Огранненый скинт",
+      "item.loloitems.magic_tea": "Магический чай",
+      "item.loloitems.rare_tea": "Редкий чай",
+      "advancements.start.descr": "Спасибо за то что скачали мод Loloitems",
+      "block.loloitems.voriflag": "Флаг воров",
+      "item.loloitems.antiskint": "Фрагмент скинтонита",
+      "item.loloitems.classic_tea": "Обычный чёрный чай",
+      "item.loloitems.magicstick": "Волшебная палочка",
+      "effect.pogashayaiskra": "Погасшая искра",
+      "item.loloitems.krupitsaskinta": "Крупица скинта",
+      "item.loloitems.secret_tea": "Секретный чай",
+      "item.loloitems.empty_cup": "Пустая чашка"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "advancements",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": [
+          {
+            "name": "Cups",
+            "children": []
+          },
+          {
+            "name": "Propusk",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "blocks",
+        "children": [
+          {
+            "name": "flags",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "other",
+        "children": []
+      },
+      {
+        "name": "crafts",
+        "children": []
+      },
+      {
+        "name": "reputations",
+        "children": [
+          {
+            "name": "magic",
+            "children": []
+          },
+          {
+            "name": "killers",
+            "children": []
+          },
+          {
+            "name": "Clan",
+            "children": []
+          },
+          {
+            "name": "traders",
+            "children": []
+          },
+          {
+            "name": "contrs",
+            "children": []
+          },
+          {
+            "name": "robbers",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "loloitems",
+    "modName": "Loloitems",
+    "version": "1.0.0",
+    "author": "sasha3131off",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "magic_picture",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Loloitems mod created by sasha3131off (pirateorno)",
+    "modElementsPackage": "net.mcreator.loloitems",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

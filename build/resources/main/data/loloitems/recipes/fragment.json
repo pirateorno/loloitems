@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "loloitems:oskolocskinta"
+    },
+    "1": {
+      "item": "loloitems:oskolocskinta"
+    },
+    "2": {
+      "item": "loloitems:oskolocskinta"
+    },
+    "3": {
+      "item": "loloitems:oskolocskinta"
+    },
+    "4": {
+      "item": "loloitems:oskolocskinta"
+    },
+    "5": {
+      "item": "loloitems:oskolocskinta"
+    },
+    "6": {
+      "item": "loloitems:oskolocskinta"
+    },
+    "7": {
+      "item": "loloitems:oskolocskinta"
+    },
+    "8": {
+      "item": "loloitems:oskolocskinta"
+    }
+  },
+  "result": {
+    "item": "loloitems:fragmentskinta",
+    "count": 1
+  }
+}

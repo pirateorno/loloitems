@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "loloitems:oskolocskinta"
+    }
+  ],
+  "result": {
+    "item": "loloitems:krupitsaskinta",
+    "count": 9
+  }
+}

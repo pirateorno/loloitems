@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture",
+        "2": "texture2",
+        "3": "texture3",
+        "4": "krupitsa_skinta"
+      },
+      "name": "default"
+    }
+  }
+}

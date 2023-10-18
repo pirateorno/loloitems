@@ -1,0 +1,7 @@
+{
+  "parent": "loloitems:custom/empty",
+  "textures": {
+    "10": "loloitems:blocks/empty",
+    "particle": "loloitems:items/krupitsa_skinta"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "loloitems:custom/propusk3",
+  "textures": {
+    "1": "loloitems:blocks/propusk_vorov",
+    "particle": "loloitems:items/skintonit"
+  }
+}

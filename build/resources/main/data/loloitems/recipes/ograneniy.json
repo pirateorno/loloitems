@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "loloitems:kristalskinta"
+    },
+    "1": {
+      "item": "loloitems:kristalskinta"
+    },
+    "2": {
+      "item": "loloitems:kristalskinta"
+    },
+    "3": {
+      "item": "loloitems:kristalskinta"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "loloitems:kristalskinta"
+    },
+    "6": {
+      "item": "loloitems:kristalskinta"
+    },
+    "7": {
+      "item": "loloitems:kristalskinta"
+    },
+    "8": {
+      "item": "loloitems:kristalskinta"
+    }
+  },
+  "result": {
+    "item": "loloitems:ogranennogoskinta",
+    "count": 1
+  }
+}

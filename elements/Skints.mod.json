@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Loloitems: Скинты",
+    "icon": {
+      "value": "CUSTOM:Antiskint"
+    },
+    "showSearch": false
+  }
+}

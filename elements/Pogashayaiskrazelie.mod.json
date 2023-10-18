@@ -1,0 +1,21 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Зелье слабой искры",
+    "splashName": "Взрывное зелье слабой искры",
+    "lingeringName": "Туманное зелье слабой искры",
+    "arrowName": "Стрела с эффектом слабой искры",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Pogashayaiskra"
+        },
+        "duration": 36000,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

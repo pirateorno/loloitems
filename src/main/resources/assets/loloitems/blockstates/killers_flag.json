@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "loloitems:block/killers_flag"
+    },
+    "facing=east": {
+      "model": "loloitems:block/killers_flag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "loloitems:block/killers_flag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "loloitems:block/killers_flag",
+      "y": 270
+    }
+  }
+}

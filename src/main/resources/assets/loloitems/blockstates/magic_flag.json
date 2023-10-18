@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "loloitems:block/magic_flag"
+    },
+    "facing=east": {
+      "model": "loloitems:block/magic_flag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "loloitems:block/magic_flag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "loloitems:block/magic_flag",
+      "y": 270
+    }
+  }
+}

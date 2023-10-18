@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "command",
+  "definition": {
+    "commandName": "reputation",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"-53\" y=\"-240\"><next><block type=\"string\"><field name=\"name\">clanName</field><field name=\"type\">string</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">howManyReputation</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">player</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ReputaionAddProcedure</field><comment pinned=\"false\" h=\"80\" w=\"160\">This procedure needs to be specific to those arguments.</comment></block></statement></block></statement></block></statement></block></next></block></xml>"
+  }
+}

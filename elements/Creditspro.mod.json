@@ -1,0 +1,7 @@
+{
+  "_fv": 33,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"-208\" y=\"-66\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/tellraw @p [\"\",{\"text\":\"[Loloitems] \",\"color\":\"green\"},\"Спасибо этим людям за помощь в разработке:\",\"\\n\",{\"text\":\"Sasha3131off\",\"color\":\"gold\"},\" - Главный разработчик мода\",\"\\n\",{\"text\":\"M1lkyWay3\",\"color\":\"gold\"},\" - Сделал все 3д модели и предлагал много идей\",\"\\n\",{\"text\":\"M1lkyWay3\",\"color\":\"gold\"},\" - Сделал все 2д текстуры\",\"\\n\",{\"text\":\"Kramer\",\"color\":\"gold\"},\" - Сделал карту поэны и предлагал много идей\",\"\\n\",{\"text\":\"[Loloitems] \",\"color\":\"green\"},\"Спасибо этим людям за поиск багов:\",\"\\n\",{\"text\":\"Hiroka|Love  \",\"color\":\"gold\"},\" - тестер\",\"\\n\",{\"text\":\"Zefirkafell\",\"color\":\"gold\"},\" - тестер\",\"\\n\"]</field></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></next></block></xml>"
+  }
+}
